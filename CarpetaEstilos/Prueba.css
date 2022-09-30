@@ -1,0 +1,44 @@
+/*
+<!-- But these format with lines can feel repettitive and messy, lets try with "Rule Set Styling".-->
+<!-- Although we select color values with "Rule Set Styling" if we have two different colors selected for a particular heading, 
+the most specific color will prevail. It is being said that all elements should be pink, but with the rule set styling, we said
+should be red. -->
+<!-- When doing in-line styling and rute set styling, they combine. They don't overwrite unless there's a conflict.-->
+*/
+
+h1{ 
+    color: teal; 
+    font-size: 30px; 
+}
+
+
+h2{
+    color:chocolate;
+    font-size: 60px;
+}
+
+
+h2{
+color:aqua;
+font-size:17px;
+}
+
+.big{
+font-size: 63px;
+}
+
+.uppercase{
+text-transform: uppercase;
+}
+
+.big.uppercase{
+text-align:center;
+color: green;
+}
+
+span{
+color:black 
+}
+h2 span{
+color:orangered
+}
