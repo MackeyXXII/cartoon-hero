@@ -5,6 +5,11 @@ the most specific color will prevail. It is being said that all elements should 
 should be red. -->
 <!-- When doing in-line styling and rute set styling, they combine. They don't overwrite unless there's a conflict.-->
 */
+body{
+
+    background-color: azure;
+}
+
 
 h1{ 
     color: teal; 
@@ -42,3 +47,25 @@ color:black
 h2 span{
 color:orangered
 }
+
+/* 
+<!-- If we have a conflict within rule set styling with the same speciifty, the rule that was written last takes precedence-->
+<!-- We can provide a class atribute to different elements to make them behave differently, or to be specific with elements with a 
+defnite class -->
+<!-- We call a class by writing .[class name]-->
+<!-- An element can have multiple classes. -->
+<!-- We can declase the behaviour of two classes within a rule set styling. -->
+<!-- A span is a white box by default. -->
+<!-- A span element looks like plain, default text, but it can be assigned to a set of rules.-->
+<!-- We can call span elements inside of H1 by writing H1 Span instead of span.-->
+<!-- "The span element doesn't mean anything on its own, but can be useful when used together with the global attributes, e.g. class, lang, or dir. It represents its children"-->
+<!-- Span elements allows us to select only certain parts of the other elements and format them in a certain way.-->
+
+<!-- These format changes do not save in the globally, so if there were multiple HTML pages, I would have to copy and paste the rules in every single page and edit them individually.-->
+We can add a link element with the format:
+<link rel="stylesheet" type="text/css" href="CarpetaEstilos/Prueba.css">
+where rel is the type of relationship we are creating,  type is the text file type and href is the 
+Absolute / relative URL of where the page is located. 
+<!-- We can unindent text by selecting it and using Shift+Tab-->
+
+*/
