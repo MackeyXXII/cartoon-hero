@@ -1,19 +1,18 @@
 body{
     background-color:#dafdfd;
     font-family: 'Didact Gothic', sans-serif;
-    font-size: medium;
     line-height: 30px;
-
 }
 
 header{
     color: #004c4c;
     text-align:center;
     background-blend-mode: soft-light;
-    background-image: url("C:\Users\MiguelArenas\Desktop\Websites and Coding\GitHub\cartoon-hero\img\BTE1");
+    background-image: url();
     padding-top: 5mm;
     padding-bottom: 5mm;
     font-size: 60px;
+    background-image: url();
 
 }
 
