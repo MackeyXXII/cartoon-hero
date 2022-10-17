@@ -16,16 +16,16 @@ body{
     line-height: 30px;
 }
 
-header img{
-    border-radius:170px;
-    width: 300px;
-    border: 10px solid cadetblue;
-}
-
 body img{
     width: 800px;
     padding-block-start: 50px;
 
+}
+
+header img{
+    border-radius:170px;
+    width: 300px;
+    border: 10px solid cadetblue;
 }
 
 h1{
