@@ -79,7 +79,9 @@ main img{
 footer{
     padding-top: 50px;
     padding-bottom: 30px;
-    text-decoration:underline;
+    padding-left: 50px;
+    text-align: center;
+    text-decoration:solid;
     background-color: black;
     color:azure
 }
