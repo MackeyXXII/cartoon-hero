@@ -22,6 +22,12 @@ header img{
     border: 10px solid cadetblue;
 }
 
+body img{
+    width: 800px;
+    padding-block-start: 50px;
+
+}
+
 h1{
     color:#006666;
     font-size: 100 px;
@@ -40,6 +46,8 @@ h3{
     font-size: 30px;
     font-style: italic;
 }
+
+
 
 p{
     font-size: 20px;
