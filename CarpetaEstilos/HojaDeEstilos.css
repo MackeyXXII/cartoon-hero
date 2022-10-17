@@ -4,6 +4,11 @@ body{
 
 header{
     color: #004c4c;
+    text-align:center;
+}
+
+header img{
+    border-radius:150px
 }
 
 h2{
