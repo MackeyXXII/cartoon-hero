@@ -1,8 +1,13 @@
 body{
-    background-color:red;
+    background-color:aquamarine;
+}
+
+header{
+    color: #004c4c;
 }
 
 h2{
-    color:chocolate;
+    color:#006666;
     font-size: 60px;
 }
+
