@@ -1,3 +1,17 @@
+/* We declared the type of this document when naming it as a .css file*/
+/*
+CSS is the language we use to style an HTML document.
+CSS describes how HTML elements should be displayed.
+It is mainly concerned for the formatting of the elements of the webpage. 
+CSS needs HTML elements to work. 
+*/
+
+/*
+By opening the declaration of an element (With {}), we are now specifing some characteristics of said elements. 
+These characteristics can refer to simple traits like the color or a background of an element, to a font-type, alignment, padding (space
+between different elements) and many more that I have yet to discover and understand. 
+
+*/
 header{
     color: #004c4c;
     text-align:center;
@@ -94,3 +108,24 @@ footer{
     background-color: black;
     color:azure
 }
+
+    /* 
+    Some more comments from  past assignments / other tasks: 
+
+    <!-- If we have a conflict within rule set styling with the same speciifty, the rule that was written last takes precedence-->
+    <!-- We can provide a class atribute to different elements to make them behave differently, or to be specific with elements with a 
+    defnite class -->
+    <!-- We call a class by writing .[class name]-->
+    <!-- An element can have multiple classes. -->
+    <!-- We can declare the behaviour of two classes within a rule set styling. -->
+    <!-- A span is a white box by default. -->
+    <!-- A span element looks like plain, default text, but it can be assigned to a set of rules.-->
+    <!-- We can call span elements inside of H1 by writing H1 Span instead of span.-->
+    <!-- "The span element doesn't mean anything on its own, but can be useful when used together with the global 
+    attributes, e.g. class, lang, or dir. It represents its children"-->
+    <!-- Span elements allows us to select only certain parts of the other elements and format them in a certain way.-->
+    <!-- These format changes do not save in the globally, so if there were multiple HTML pages, I would have to copy 
+    and paste the rules in every single page and edit them individually.-->
+    <!-- We can unindent text by selecting it and using Shift+Tab-->
+    
+    */
