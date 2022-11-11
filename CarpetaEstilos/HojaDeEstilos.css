@@ -16,7 +16,6 @@ header{
     color: #004c4c;
     text-align:center;
     background-blend-mode: soft-light;
-    background-image url ("img");
     padding-top: 5mm;
     padding-bottom: 5mm;
     font-size: 60px;
@@ -95,6 +94,10 @@ main{
 main img{
     max-width: 90%;
     margin: auto;
+}
+
+tr img{
+    width:fit-content;
 }
 
 footer{
