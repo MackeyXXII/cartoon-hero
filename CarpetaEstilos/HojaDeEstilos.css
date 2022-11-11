@@ -16,11 +16,9 @@ header{
     color: #004c4c;
     text-align:center;
     background-blend-mode: soft-light;
-    background-image: url();
     padding-top: 5mm;
     padding-bottom: 5mm;
     font-size: 60px;
-    background-image: url();
 
 }
 
@@ -73,7 +71,7 @@ h4{
 
 
 p{
-    font-size: 20px;
+    font-size: 30px;
     display:inline;
 }
 
