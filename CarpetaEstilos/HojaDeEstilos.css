@@ -31,8 +31,12 @@ body{
 
 body img{
     width: fit-content;
-    padding-block-start: 50px;
 
+}
+
+element.style {
+    width: 200px;
+    padding: 50px;
 }
 
 header img{
