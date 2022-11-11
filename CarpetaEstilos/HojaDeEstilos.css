@@ -95,6 +95,7 @@ main{
 main img{
     max-width: 90%;
     margin: auto;
+    align-self: center;
 }
 
 tr img{
